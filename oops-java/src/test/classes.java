@@ -11,8 +11,9 @@ class Student{
   }
 
   //constructor overloading
-  Student(String text){
-    studentMessage = text;
+  Student(String studentMessage){
+    //using this keyword
+    this.studentMessage = studentMessage;
     System.out.println("I am paramaterized constructor");
   }
 
