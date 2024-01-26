@@ -8,12 +8,15 @@ public class objects{
     std1.studentId = 7;
     std1.studentCity = "Chhindwara";
     //std1.study();
-    std1.studentDetails();
+    //std1.studentDetails();
     //or
-    Student std2 = new Student();
+
+    Student std2 = new Student("Namastey");
     std2.studentName = std1.studentName;
     std2.studentId = 27;
     std2.studentCity = std1.studentCity;
-    std2.study();
+    //std2.study();
+    std2.greetMessage();
+    std2.greetMessage(5);
   }
 }
